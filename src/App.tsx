@@ -11,7 +11,7 @@ function App() {
       <div className="bg-gray-800 p-4 sm:p-8 rounded-xl shadow-2xl max-w-full">
         <div className="flex items-center gap-2 mb-4 sm:mb-6">
           <Gamepad2 className="w-5 h-5 sm:w-6 sm:h-6 text-purple-500" />
-          <h1 className="text-lg sm:text-xl font-bold text-white">AlvaroTetris.xyz v1.0</h1>
+          <h1 className="text-lg sm:text-xl font-bold text-white">AlvaroTetris.xyz v1.2</h1>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
@@ -19,7 +19,7 @@ function App() {
           
           <div className="text-white">
             <div className="mb-4 sm:mb-6">
-              <h2 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2">Score</h2>
+              <h2 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2">Puntuación</h2>
               <p className="text-xl sm:text-2xl font-bold text-purple-500">{gameState.score}</p>
             </div>
             
